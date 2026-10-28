@@ -37,7 +37,7 @@ Git
 
 Step 1: Clone the Repository
 
-git clone https://github.com/Aryn-Lokare/prj-arhmora.git
+git clone https://github.com/lavanyamankar012/prj-arhmora.git
 cd prj-arhmora
 Step 2: Backend Setup
 
