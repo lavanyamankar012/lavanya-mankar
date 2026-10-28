@@ -8,6 +8,7 @@ Advanced Scanning - Concurrent detection engine for SQLi, XSS, RCE, LFI, and SSR
 Exploit Verification (Layer 2) - Deterministic verification system to virtually eliminate false positives.
 Enterprise Reporting - Professional PDF reports generated with consulting-grade typography and layout.
 Full Auth Suite - JWT-based security, Google OAuth 2.0, and email verification.
+
 🛠️ Tech Stack
 
 Backend
@@ -18,12 +19,14 @@ Task Queue: Celery (Background scanning)
 Broker/Cache: Redis
 Security: Simple JWT (Auth), OWASP-aligned detection logic
 AI: OpenAI SDK (via OpenRouter for Gemini 2.0 Flash)
+
 Frontend
 
 Framework: Next.js 16.1 (App Router)
 Styling: Tailwind CSS 4 + Radix UI
 State/Auth: React Context + Axios interceptors
 Icons: Lucide React / Tabler Icons
+
 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -39,6 +42,7 @@ Step 1: Clone the Repository
 
 git clone https://github.com/lavanyamankar012/prj-arhmora.git
 cd prj-arhmora
+
 Step 2: Backend Setup
 
 2.1 Create Virtual Environment & Install Dependencies
@@ -99,6 +103,7 @@ celery -A myproject worker --loglevel=info --pool=solo
 macOS/Linux:
 
 celery -A myproject worker --loglevel=info
+
 Step 4: Frontend Setup
 
 Open a new terminal in the project root:
